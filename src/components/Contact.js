@@ -6,7 +6,7 @@ export default class Contact extends React.Component{
 render(){
     return(
         <div>
-        <h1> Contact</h1>
+        <h1>Contact</h1>
         
         <form action="mailto:johnny.kessenich@gmail.com" method="post" enctype="text/plain" >
             FirstName:<input type="text" name="FirstName" /> <br /><br />

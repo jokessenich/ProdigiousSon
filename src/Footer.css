@@ -1,0 +1,11 @@
+.footer{
+    font-family:roboto;
+    display: flex;
+    justify-content: center;
+    background-color: #c198d2;
+    margin-top:50px;}
+
+    h3, h4{
+        padding:20px;
+        font-weight:100;
+    }

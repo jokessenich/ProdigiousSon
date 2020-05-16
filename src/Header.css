@@ -1,0 +1,28 @@
+ul{
+
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-evenly;	
+      background-color: transparent;
+      height:0;
+      margin-bottom:20px;
+  }
+  
+  li{
+
+    margin-right:50px;
+    padding-top: 20px;
+
+  }
+
+  .navLinks{
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(50, 80, 46);
+      font-size: 18pt;
+  }
+
+  .header{
+      height:100px;
+  }

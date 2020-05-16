@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1em;
+    color:rgb(50, 80, 46);
+    font-size: 3em;
+}
+
+.corky-image{
+    background-image: url('https://github.com/jokessenich/corky/blob/master/young-corky.jpg?raw=true');
+    background-size:cover;
+    height: 90vh;
+    background-position: center;
+}
+
+h2{
+font-family: roboto;
+    font-weight: 100;
+    margin-bottom: 50px;
+    font-size: 2em;
+}
+
+.infoBox{
+    padding: 10%;
+    font-family: roboto;
+    padding-bottom: 50px;
+}
+p{
+letter-spacing: .1em;
+    padding: 10%;
+    text-align: left;
+    line-height: 1.7em;
+    font-family: roboto;
+}
+.overlay{
+height: 90vh;
+background-color: #00000066;
+}
+.overlayText {
+    color: white;
+    padding-top: 200px;
+    font-size: 18pt;
+}
+
+@media screen and (min-width: 800px){
+    .overlayText {
+    
+        padding-top: 400px;
+      
+    }
+}

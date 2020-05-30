@@ -23,8 +23,8 @@ render(){
 <img className = "bookImage" src = 'https://github.com/jokessenich/corky/blob/master/Prodigious%20Son%20BOOK%203D.jpg?raw=true' height='300' width = '200' />
 </div>
 <div className = "about-book">
-        <p><span className="emphasize-text">How many times can you cheat death </span>on your path to
-                enlightenment? Meet Ralph "Corky" Matson, a modern-day
+        <p><span className="emphasize-text">How many times can you cheat death on your path to
+                enlightenment? </span> <br /> <br />Meet Ralph "Corky" Matson, a modern-day
                 urban shaman who consistently beats the odds. In this
                 captivating memoir, Matson leads us through Woodstock,
                 down drug alleys, over mountain ashrams and around

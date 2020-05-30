@@ -2,11 +2,11 @@ h1{
     font-family: 'Roboto', sans-serif;
     letter-spacing: .1em;
     color:rgb(50, 80, 46);
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .corky-image{
-    background-image: url('https://github.com/jokessenich/corky/blob/master/young-corky.jpg?raw=true');
+    background-image: url('https://github.com/jokessenich/corky/blob/master/young-corky_BW_Retouched.jpg?raw=true');
     background-size:cover;
     height: 90vh;
     background-position: center;
@@ -23,13 +23,16 @@ font-family: roboto;
     padding: 10%;
     font-family: roboto;
     padding-bottom: 50px;
+    padding-top:5%;
 }
 p{
-letter-spacing: .1em;
+letter-spacing: .05em;
     padding: 10%;
     text-align: left;
     line-height: 1.7em;
     font-family: roboto;
+    width:60%;
+    margin-left:10%;
 }
 .overlay{
 height: 90vh;
@@ -39,12 +42,38 @@ background-color: #00000066;
     color: white;
     padding-top: 200px;
     font-size: 18pt;
+    margin-left:0;
+    margin-right:0;
 }
 
+.emphasize-text{
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.picDescriptionBox{
+   display:flex;
+   flex-direction:column;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bookCoverDiv{
+    padding-top:5%;
+}
 @media screen and (min-width: 800px){
     .overlayText {
     
         padding-top: 400px;
       
+    }
+
+    .picDescriptionBox{
+    flex-direction: row;
+    }
+    .bookCoverDiv{
+        padding-left:20%;
     }
 }

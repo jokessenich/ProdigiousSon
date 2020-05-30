@@ -5,7 +5,7 @@ ul{
       list-style-type: none;
       justify-content: space-evenly;	
       background-color: transparent;
-      height:0;
+
       margin-bottom:20px;
   }
   
@@ -15,14 +15,84 @@ ul{
     padding-top: 20px;
 
   }
+  .bm-burger-button {
+    position: fixed;
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    top: 25px;
+  }
+.fullscreen-links{
+    display:none;
+}
+.bm-burger-bars {
+    background:black;
+  }
 
+  a.bm-item.nav-link{
+      padding-top: 30px;
+      font-size: 20pt;
+      height: 60px;
+      font-style: bolder;
+  }
+
+  .bm-overlay{
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  nav.bm-item-list {
+    position: fixed;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 01.03);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    left: 0px;
+    padding-top: 50px;
+}
+
+
+
+.bm-cross {
+    background-color: white;
+    height:50px;
+    width:50px;
+    background-size: cover;
+  }
+
+  .bm-cross-button {
+    position: absolute;
+    min-height: 50px;
+    min-width: 50px;
+    background-size: cover;
+    right:0px;
+  }
   .navLinks{
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
-      color: rgb(50, 80, 46);
-      font-size: 18pt;
+      color: white;
+      font-size: 14pt;
   }
 
-  .header{
-      height:100px;
+  .title{
+      margin-top:80px;
+      color:black;
   }
+
+  .transcribed{
+      padding-top:0px;
+  }
+
+  @media only screen and (min-width: 680px) {
+    .bm-burger-button {
+        display: none;
+    }
+
+    .fullscreen-links{
+        display: flex;
+    }
+
+    .navlinks{
+        color: rgb(50, 80, 46);
+    }
+}

@@ -6,6 +6,10 @@ export default class Home extends React.Component{
 render(){
     return(
         <div className = "page">
+                <div className="available-popup">
+        <h3>Available in paperback, eBook or Kindle June 24th!! {<br/>}</h3>
+        
+    </div>
                     <h1 className = "title" >Prodigious Son: A Memoir of Miracles</h1>
         <h2>Ralph Matson</h2>
         <h3 className="transcribed">Transcribed by: John Kessenich</h3>
@@ -13,6 +17,7 @@ render(){
         <h2>A Memoir of Miracles</h2>
             <div className = 'corky-image'></div>
     */}
+
     <div className ="picDescriptionBox">
         <div className="bookCoverDiv">
 <img className = "bookImage" src = 'https://github.com/jokessenich/corky/blob/master/Prodigious%20Son%20BOOK%203D.jpg?raw=true' height='300' width = '200' />

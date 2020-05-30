@@ -67,6 +67,7 @@ ul{
     background-size: cover;
     right:0px;
   }
+
   .navLinks{
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
@@ -75,7 +76,6 @@ ul{
   }
 
   .title{
-      margin-top:80px;
       color:black;
   }
 
@@ -92,7 +92,7 @@ ul{
         display: flex;
     }
 
-    .navlinks{
+    .navLinks{
         color: rgb(50, 80, 46);
     }
 }

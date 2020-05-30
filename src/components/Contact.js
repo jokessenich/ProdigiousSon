@@ -8,17 +8,8 @@ render(){
         <div>
         <h1>Contact</h1>
         
-        <form action="mailto:johnny.kessenich@gmail.com" method="post" enctype="text/plain" >
-            FirstName:<input type="text" name="FirstName" /> <br /><br />
-            Email:<input type="text" name="Email" />
-            <br />
-            <br />
-            Message:<br /><textarea cols='40' rows='10' />
-            <br />
-            <input type="submit" name="submit" value="Submit" />
-            
-            </form>
-
+        <h3> To contact Ralph "Corky" Matson, email:</h3>
+        <a className="emailLink" href="mailto:ProdigiousSonBook@gmail.com"><h3>ProdigiousSonBook@gmail.com</h3></a>
         </div>
     )
 }

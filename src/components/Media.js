@@ -2,14 +2,20 @@ import React from 'react';
 import './Media.css'
 
 export default class Media extends React.Component{
-
+    constructor(props){
+        super(props)
+        this.state = {
+            hidden: true
+        }
+    }
 
 render(){
     return(
         <div>
         <h1> Media Information</h1>
         <h3>For interviews of the author or book reviews please contact Sound Visions Media at: <br /><br />
-<a href = "mailto:soundsvisionsmedia@gmail.com">soundvisionsmedia  (at)  gmail.com </a>
+            {this.state.hidden?<span onClick = {()=>{this.setState({hidden: false})}}>Click here for contact info</span>:""}
+            {this.state.hidden? "":<a href = "mailto:soundsvisionsmedia@gmail.com">soundvisionsmedia  (at)  gmail.com </a>}
         <br />
         <br />
         For Media/Press information please download the EPK that includes:

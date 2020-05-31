@@ -1,0 +1,15 @@
+.mediaList{
+    flex-direction: column;
+    text-align:left;
+    text-decoration: none;;
+}
+
+a{
+    text-decoration: none;
+}
+@media screen and (min-width: 800px){
+
+    .mediaList{
+        margin-left: 40%;
+    }
+}

@@ -57,14 +57,14 @@ render(){
         <div className="infoBox">
          
       
-            <h3>“Never have I had the pleasure of reading a memoir so thoughtful in its understanding of humanity, the preservation of memory, and a feeling of optimism that compels you to leave its pages rejuvenated and optimistic about what there is to come.” </h3>
+            <h3 className = "quote">“Never have I had the pleasure of reading a memoir so thoughtful in its understanding of humanity, the preservation of memory, and a feeling of optimism that compels you to leave its pages rejuvenated and optimistic about what there is to come.” </h3>
                 <h4>– Sarah Tierney, copy editor</h4>
                 <br />
-<h3>"<span className="italic">Prodigious Son</span> is an honest and insightful look into a life well-lived and filled with colorful tales.”</h3>
+<h3 className = "quote">"<span className="italic">Prodigious Son</span> is an honest and insightful look into a life well-lived and filled with colorful tales.”</h3>
 
 <h4>– Jack Bornoff, screenwriter</h4>
 <br />
-<h3>“<span className="italic">Prodigious Son</span> reflects hope in the face of catastrophe. Corky Matson is a remarkable person, soul and example of a life well lived.”</h3>
+<h3 className = "quote">“<span className="italic">Prodigious Son</span> reflects hope in the face of catastrophe. Corky Matson is a remarkable person, soul and example of a life well lived.”</h3>
 <h4>– Russell Jaffe, MD, Ph.D. CCN</h4>
 <br />
 

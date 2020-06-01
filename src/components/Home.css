@@ -76,6 +76,14 @@ background-color: #00000066;
     font-style: italic;
 }
 
+h4{
+    margin-top: 0px;
+}
+
+.quote{
+    margin-bottom: 0px;
+}
+
 .bookCoverDiv{
     padding-top:2%;
 }

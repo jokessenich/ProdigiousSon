@@ -7,6 +7,20 @@
 a{
     text-decoration: none;
 }
+
+.photosList{
+    flex-direction: column;
+}
+
+.MediaPhotosButton{
+    color: #0000EE;
+
+}
+
+.MediaPhotosButton:hover{
+    cursor: pointer;
+}
+
 @media screen and (min-width: 800px){
 
     .mediaList{

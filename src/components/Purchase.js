@@ -20,7 +20,7 @@ $18.99 (US)
 eBook: ISBN: 9781098308889
 $4.99 (US)</h3>
 
-        <h3>Prodigious Son: A Memoir of Miracles by Ralph Matson <br />will be released on June 24, 2020.</h3>
+        <h3>Prodigious Son: A Memoir of Miracles by Ralph Matson <br />will be released on August 22, 2020.</h3>
 
         <img src= "https://github.com/jokessenich/corky/blob/master/Prodigious%20Son%20BOOK%203D.jpg?raw=true" width="300" height = "450" />
 

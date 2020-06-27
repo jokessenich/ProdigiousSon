@@ -23,7 +23,7 @@ render(){
         <br />
         For Media/Press information please download the EPK that includes:
         <ul className = "mediaList">
-        <li><a href= "https://github.com/jokessenich/corky/raw/master/Press%20One%20Page_Prodigious%20Son_PRINT.pdf" download = "Press_One_Page_ProdigiousSon">Media One Page</a></li>
+        <li><a href= "https://github.com/jokessenich/corky/raw/master/Press%20One%20Page_Prodigious%20Son-2.1.pdf" download = "Press_One_Page_ProdigiousSon">Media One Page</a></li>
         <li><a href= "https://github.com/jokessenich/corky/raw/master/BIO%20Press.pdf" download = "RalphMatsonBio">Author Bio</a></li>
         <li><a href = "https://github.com/jokessenich/corky/raw/master/PRESS%20RELEASE_Prodigious%20Son%20.pdf" download = "PressRelease_ProdigiousSon">Press Release</a></li>
         <li><a className = "MediaPhotosButton" onClick = {()=>{this.setState({showPhoto: true})}}>Photos</a>

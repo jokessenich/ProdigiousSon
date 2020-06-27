@@ -7,6 +7,7 @@ import Media from './components/Media'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
 import Photos from './components/Photos'
+import Preface from './components/Preface'
 
 export default class Main extends React.Component{
 
@@ -22,6 +23,8 @@ render(){
                 <Route path = '/contact' component = {Contact}></Route>
                 <Route path = '/blog' component = {Blog}></Route>
                 <Route path = '/photos' component = {Photos}></Route>
+                <Route path = '/preface' component = {Preface}></Route>
+
             </Switch>
         </div>
     )

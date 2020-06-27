@@ -38,11 +38,13 @@ render(){
         <div className="header">
         <ul className = "fullscreen-links">
             <li ><Link className="navLinks" to = '/'>Home</Link></li>
+            <li><Link className="navLinks" to = '/Preface'>Preface</Link></li>
             <li><Link className="navLinks" to = '/About-Author'>Author</Link></li>
             <li><Link  className="navLinks" to = '/Purchase'>Purchase</Link></li>
             <li><Link  className="navLinks" to ='/Media'>Media</Link></li>
             <li><Link className="navLinks"  to = '/Blog'>Blog</Link></li>
             <li><Link className="navLinks" to = '/Contact'>Contact</Link></li>
+
 
             {//<li><Link className="navLinks" to = '/Photos'>Photos</Link></li>
 }

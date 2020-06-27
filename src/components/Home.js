@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import {Link} from 'react-router-dom'
 export default class Home extends React.Component{
 
     constructor(props){
@@ -22,8 +23,10 @@ render(){
     </div>:""}
                     <h1 className = "title" >Prodigious Son: A Memoir of Miracles</h1>
         <h2>Ralph Matson</h2>
-        <h3 className="transcribed">Transcribed by: John Kessenich</h3>
-                  {/*  <h1> Prodigious Son </h1>
+        <h3>Transcribed by
+
+John Kessenich</h3>
+            {/*  <h1> Prodigious Son </h1>
         <h2>A Memoir of Miracles</h2>
             <div className = 'corky-image'></div>
     */}
@@ -57,7 +60,7 @@ render(){
                 depictions of heartbreak or cruelty, Matson generously
                 renders a world—and a philosophy—of devotion, kindness,
                 and perseverance that is the underlying thread of his life
-                story. Edgy, yet inspirational, Prodigious Son: A Memoir of
+                story. His grammatically imprecise approach to his storytelling creates a raw and visceral experience for the reader. Edgy, yet inspirational, Prodigious Son: A Memoir of
                 Miracles offers hope and spiritual awakening in the middle of
                 despair.</p>
         </div>        

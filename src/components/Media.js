@@ -25,8 +25,8 @@ render(){
         <ul className = "mediaList">
         <li><a href= "https://github.com/jokessenich/corky/raw/master/Press%20One%20Page_Prodigious%20Son-2.1.pdf" download = "Press_One_Page_ProdigiousSon">Media One Page</a></li>
         <li><a href= "https://github.com/jokessenich/corky/raw/master/BIO%20Press.pdf" download = "RalphMatsonBio">Author Bio</a></li>
-     {//   <li><a href = "https://github.com/jokessenich/corky/raw/master/PRESS%20RELEASE_Prodigious%20Son%20.pdf" download = "PressRelease_ProdigiousSon">Press Release</a></li>
-}
+        <li><a href = "https://www.send2press.com/wire/inspirational-new-book-prodigious-son-a-memoir-of-miracles-reveals-remarkable-life-of-an-urban-shaman-ralph-matson/">Press Release</a></li>
+
         <li><a className = "MediaPhotosButton" onClick = {()=>{this.setState({showPhoto: true})}}>Photos</a>
         {this.state.showPhoto? <ul className = "photosList"><li>Click to Download:</li><li><a href = {corky} download = "Ralph_Matson.jpg"><img src= {corky} width="150" height = "125" /> </a></li>
         <li><a href = {youngCorky} download="Young_Ralph_Matson"><img src= {youngCorky} width="150" height = "200" /></a></li>

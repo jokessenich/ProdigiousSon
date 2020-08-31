@@ -18,8 +18,7 @@ render(){
     return(
         <div className = "page">
                 {this.state.showPopup?<div className="available-popup">
-                    <h3><a href = "https://www.facebook.com/events/657893901747327/">LIVE Book Release w/ author Ralph "Corky" Matson on Facebook
-Saturday, August 22 at 1 PM (PDT)</a></h3>
+
         
     </div>:""}
                     <h1 className = "title" >Prodigious Son: A Memoir of Miracles</h1>
